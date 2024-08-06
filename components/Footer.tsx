@@ -8,10 +8,11 @@ const Footer = () => {
     <footer className="w-full mb-[100px] pb-10 md:mb-5" id="contact">
 
         <div className='flex flex-col items-center'>
-           <h1 className='heading lg:max-w-[45vw]'>
-            Let's <span className='text-purple'>connect!</span>
-           </h1>
-           <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me and let's collaborate to create something big!</p>
+        <h1 className="heading lg:max-w-[45vw]">
+  Let&apos;s <span className="text-purple">connect!</span>
+</h1>
+
+           <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me and let&apos;s collaborate to create something big!</p>
            <a href="mailto:nidhi.singh1858@gmail.com">
            <MagicButton
            title="Let's get in touch"
