@@ -9,6 +9,9 @@ import Experience from "@/components/Experience";
 import Approach from "@/components/Approach";
 import Footer from "@/components/Footer";
 
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
+
 export default function Home() {
   return (
     <main className="relative bg-black overflow-clip flex justify-center items-center flex-col mx-auto sm:px-10 px-5">
